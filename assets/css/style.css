@@ -8,10 +8,6 @@
           flex: 0 0 50px;
 }
 
-.topnav__logo a {
-  font-size: 1.5rem;
-}
-
 .topnav__bg {
   display: -webkit-box;
   display: -ms-flexbox;

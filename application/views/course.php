@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <meta name='keywords' content='Codec, E-learning,favourite courses' />
+    <meta name='keywords' content='Codac, E-learning,favourite courses' />
     <meta name='description'
         content='E-learning site, where registered students learn there favourite courses at their own pace' />
 
 
-    <meta property="og:title" content="Codec | E-learning,favourite courses" />
+    <meta property="og:title" content="Codac | E-learning,favourite courses" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="">
     <meta property="og:url" content="" />
@@ -22,7 +22,7 @@
     <meta name="twitter:site" content="">
     <meta name="twitter:creator" content="">
     <meta name="twitter:url" content="">
-    <meta name="twitter:title" content="Codec | E-learning,favourite courses">
+    <meta name="twitter:title" content="Codac | E-learning,favourite courses">
     <meta name="twitter:description"
         content="E-learning site, where registered students learn there favourite courses at their own pace">
     <meta name="twitter:image" content="">
@@ -65,7 +65,7 @@
             <div class="topnav__bg">
                 <div class="group-1">
                     <div class="topnav__logo">
-                        <a href="#" class="navbar-brand text-light">Codec</a>
+                        <a href="#" class="navbar-brand text-light">Codac</a>
                     </div>
                     <div class="form-group form__search m-0">
                         <form class="form-inline my-2 my-lg-0" id="searchcourse">
@@ -146,7 +146,7 @@
                 <!-- MOBILE VIEW -->
                 <div class="mobile">
                     <li class="mobile-logo">
-                        <a href="#" class="nav-link navbar-brand">CODEC</a>
+                        <a href="#" class="nav-link navbar-brand">CODAC</a>
                     </li>
                     <ul>
                         <li class="togglenav">
@@ -468,7 +468,7 @@
                     <img src="<?php echo base_url(); ?>assets/img/footer-triangles.png" alt="footer bg" class="footer__bg">
                     <div class="container">
                         <div class="nav-container">
-                            <h6 class="footer__header one">ABOUT CODEC
+                            <h6 class="footer__header one">ABOUT CODAC
                                 <hr>
                             </h6>
                             <ul class="footer__links">
@@ -567,10 +567,10 @@
                 <div class="footer__copyright text-light py-3">
 
                     <ul class="copyright__links">
-                        <h5 class="title">CODEC</h5>
+                        <h5 class="title">CODAC</h5>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
-                                &copy; Codec 2019
+                                &copy; Codac 2019
                             </a>
                         </li>
                         <li class="nav-item">

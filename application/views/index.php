@@ -6,27 +6,24 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
- <meta name='keywords' content='Codec, E-learning,favourite courses' />
- <meta name='description'
-  content='E-learning site, where registered students learn their favourite courses at their own pace' />
+ <meta name='keywords' content='Codac, E-learning,favourite courses' />
+ <meta name='description' content='E-learning site, where registered students learn their favourite courses at their own pace' />
 
 
- <meta property="og:title" content="Codec | E-learning,favourite courses" />
+ <meta property="og:title" content="Codac | E-learning,favourite courses" />
  <meta property="og:type" content="website" />
  <meta property="og:image" content="">
  <meta property="og:url" content="" />
- <meta property="og:description"
-  content="E-learning site, where registered students learn there favourite courses at their own pace" />
+ <meta property="og:description" content="E-learning site, where registered students learn there favourite courses at their own pace" />
 
  <meta name="twitter:card" content="">
  <meta name="twitter:site" content="">
  <meta name="twitter:creator" content="">
  <meta name="twitter:url" content="">
- <meta name="twitter:title" content="Codec | E-learning,favourite courses">
- <meta name="twitter:description"
-  content="E-learning site, where registered students learn there favourite courses at their own pace">
+ <meta name="twitter:title" content="Codac | E-learning,favourite courses">
+ <meta name="twitter:description" content="E-learning site, where registered students learn there favourite courses at their own pace">
  <meta name="twitter:image" content="">
- 
+
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -39,7 +36,7 @@
 
 
  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
- <title>Codec | E-learning</title>
+ <title>Codac | E-learning</title>
 </head>
 
 <body id="home">
@@ -63,12 +60,13 @@
    <div class="topnav__bg">
     <div class="group-1">
      <div class="topnav__logo">
-      <a href="#" class="navbar-brand text-light">Codec</a>
+      <a href="index.php" ckass="navbar-brand">
+       <img src="<?php echo base_url(); ?>assets/img/codaclogo.png" alt="codac logo" style="width: 44px;"></a>
+
      </div>
      <div class="form-group form__search m-0">
       <form class="form-inline my-2 my-lg-0" id="searchcourse">
-       <input maxlength="200" autocomplete="off" placeholder="Search for courses" id="autocomplete" name="search"
-        type="text" class="form-control form-control-lg topnav__search">
+       <input maxlength="200" autocomplete="off" placeholder="Search for courses" id="autocomplete" name="search" type="text" class="form-control form-control-lg topnav__search">
        <button class="topnav__search-btn btn btn-primary">
         <i class="fa fa-search" aria-hidden="true"></i>
        </button>
@@ -99,8 +97,8 @@
      <div class="auth">
       <div class="auth__buttons">
        <button class="btn btn-success signup-btn" data-target="#signupModal" data-toggle="modal">Sign Up</button>
-			 <button class="btn text-light login-btn" data-target="#loginModal" data-toggle="modal">Log In</button>
-       
+       <button class="btn text-light login-btn" data-target="#loginModal" data-toggle="modal">Log In</button>
+
        <span class="language">
         <span class="abbriev">en</span>
         <i class="fa fa-globe" aria-hidden="true"></i>
@@ -108,21 +106,21 @@
       </div>
      </div>
     </div>
-  
-     <!-- LANGUAGE DROPDOWN -->
-     <div class="language__globe">
-      <ul>
-       <li><a href="#">English</a></li>
-       <li><a href="#">Spanish</a></li>
-       <li><a href="#">French</a></li>
-       <li><a href="#">Italian</a></li>
-       <li><a href="#">Brazilian Portugese</a></li>
-      </ul>
-     </div>
+
+    <!-- LANGUAGE DROPDOWN -->
+    <div class="language__globe">
+     <ul>
+      <li><a href="#">English</a></li>
+      <li><a href="#">Spanish</a></li>
+      <li><a href="#">French</a></li>
+      <li><a href="#">Italian</a></li>
+      <li><a href="#">Brazilian Portugese</a></li>
+     </ul>
+    </div>
     <!-- MOBILE VIEW -->
     <div class="mobile">
      <li class="mobile-logo">
-      <a href="#" class="nav-link navbar-brand">CODEC</a>
+      <a href="index.php" class="nav-link navbar-brand">CODAC</a>
      </li>
      <ul>
       <li class="togglenav">
@@ -144,12 +142,12 @@
    <!-- DROPDOWN SEARCH FORM -->
    <div class="search-container hidden-on-mobile displayed-on-mobile">
     <form method="GET" action="" accept-charset="UTF-8" id="header-search-form">
-    <input maxlength="200" autocomplete="off" placeholder="Search for courses" id="autocomplete" name="query" type="text">
-    <button class="search-btn">
-     <i class="fa fa-search" aria-hidden="true"></i>
-    </button>
+     <input maxlength="200" autocomplete="off" placeholder="Search for courses" id="autocomplete" name="query" type="text">
+     <button class="search-btn">
+      <i class="fa fa-search" aria-hidden="true"></i>
+     </button>
     </form>
-    </div>
+   </div>
 
    <div class="dropdown-1">
     <span class="technology"> <a href="#"><i class="fa fa-laptop" aria-hidden="true"></i></a>
@@ -179,12 +177,12 @@
     <span class="humanities"><a href="#"><i class="fa fa-universal-access" aria-hidden="true"></i></a>
      <p class="hero__courses-text text-dark"> Humanities </p>
     </span>
-    <span class="allapp" ><a href="#"><i class="fa fa-th-large" aria-hidden="true"></i></a>
+    <span class="allapp"><a href="#"><i class="fa fa-th-large" aria-hidden="true"></i></a>
      <p class="hero__courses-text text-dark"> All Categories </p>
     </span>
    </div>
    <div class="dropdown-2">
-    <span> 
+    <span>
      <a href="#"><i class="fa fa-certificate" aria-hidden="true"></i>
      </a>
      <p class="hero__courses-text text-dark"> Certificate Courses</p>
@@ -331,16 +329,13 @@
   <div class="courses__type text-center w-100">
    <ul class="nav nav-tabs " id="myTab" role="tablist">
     <li class="nav-item">
-     <a class="nav-link hvr-left text-dark" id="trending-tab" data-toggle="tab" href="#trending" role="tab"
-      aria-controls="trending" aria-selected="true">Trending Courses</a>
+     <a class="nav-link hvr-left text-dark" id="trending-tab" data-toggle="tab" href="#trending" role="tab" aria-controls="trending" aria-selected="true">Trending Courses</a>
     </li>
     <li class="nav-item">
-     <a class="nav-link text-dark hvr-left" id="popular-tab" data-toggle="tab" href="#popular" role="tab"
-      aria-controls="popular" aria-selected="false">Most Popular Courses</a>
+     <a class="nav-link text-dark hvr-left" id="popular-tab" data-toggle="tab" href="#popular" role="tab" aria-controls="popular" aria-selected="false">Most Popular Courses</a>
     </li>
     <li class="nav-item">
-     <a class="nav-link hvr-left text-dark" id="recent-tab" data-toggle="tab" href="#recent" role="tab"
-      aria-controls="recent" aria-selected="false">Most Recent Courses</a>
+     <a class="nav-link hvr-left text-dark" id="recent-tab" data-toggle="tab" href="#recent" role="tab" aria-controls="recent" aria-selected="false">Most Recent Courses</a>
     </li>
    </ul>
    <div class="courses__bg py-2">
@@ -372,8 +367,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -402,8 +396,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -433,8 +426,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -463,8 +455,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -496,8 +487,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -526,8 +516,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -556,8 +545,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -586,8 +574,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -618,8 +605,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -648,8 +634,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -678,8 +663,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -708,8 +692,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -744,8 +727,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -774,8 +756,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -804,8 +785,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -834,8 +814,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -866,8 +845,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -896,8 +874,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -926,8 +903,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -956,8 +932,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -988,8 +963,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -1018,8 +992,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -1049,8 +1022,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -1079,8 +1051,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -1116,8 +1087,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -1146,8 +1116,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -1176,8 +1145,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -1206,8 +1174,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -1238,8 +1205,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -1268,8 +1234,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -1298,8 +1263,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -1328,8 +1292,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -1360,8 +1323,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -1390,8 +1352,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -1421,8 +1382,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -1451,8 +1411,7 @@
            <h5 class="card-title h6 mt-4"> <i class="fa fa-home" aria-hidden="true"></i> Lorem Ipsum</h5>
            <p class="card-text small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti veritatis
             placeat? Commodi, dolorem consequatur.</p>
-           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question"
-             aria-hidden="true"></i></a>
+           <a href="#" class="nav-link">More Information <i class="ml-1 fa fa-question question" aria-hidden="true"></i></a>
 
           </div>
          </div>
@@ -1501,8 +1460,7 @@
   <div class="slider review padding-one">
    <div class="review__stories">
     <figure class="stories__shape">
-     <img src="https://res.cloudinary.com/osdev/image/upload/v1570362578/befitassets/img/customer1_utnvds.png" alt=""
-      class="rounded-circle">
+     <img src="https://res.cloudinary.com/osdev/image/upload/v1570362578/befitassets/img/customer1_utnvds.png" alt="" class="rounded-circle">
     </figure>
     <div class="stories__text">
      <p>
@@ -1514,8 +1472,7 @@
    </div>
    <div class="review__stories">
     <figure class="stories__shape">
-     <img src="https://res.cloudinary.com/osdev/image/upload/v1570362584/befitassets/img/customer2_jkw9bn.png" alt=""
-      class="rounded-circle">
+     <img src="https://res.cloudinary.com/osdev/image/upload/v1570362584/befitassets/img/customer2_jkw9bn.png" alt="" class="rounded-circle">
     </figure>
     <div class="stories__text opacify">
      <p>
@@ -1527,8 +1484,7 @@
    </div>
    <div class="review__stories">
     <figure class="stories__shape">
-     <img src="https://res.cloudinary.com/osdev/image/upload/v1570362588/befitassets/img/customer3_vozygg.png" alt=""
-      class="rounded-circle">
+     <img src="https://res.cloudinary.com/osdev/image/upload/v1570362588/befitassets/img/customer3_vozygg.png" alt="" class="rounded-circle">
     </figure>
     <div class="stories__text opacify">
      <p>
@@ -1577,7 +1533,7 @@
      <img src="<?php echo base_url(); ?>assets/img/footer-triangles.png" alt="footer bg" class="footer__bg">
      <div class="container">
       <div class="nav-container">
-       <h6 class="footer__header one">ABOUT CODEC
+       <h6 class="footer__header one">ABOUT CODAC
         <hr>
        </h6>
        <ul class="footer__links">
@@ -1650,10 +1606,10 @@
          </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">
-           <i class="fa fa-twitter" aria-hidden="true"></i><span class="ml-2">Twitter</span>
-          </a>
-         </li>
+         <a href="#" class="nav-link">
+          <i class="fa fa-twitter" aria-hidden="true"></i><span class="ml-2">Twitter</span>
+         </a>
+        </li>
         <li class="nav-item">
          <a href="#" class="nav-link">
           <i class="fa fa-linkedin" aria-hidden="true"></i><span class="ml-2"> Linkedin </span>
@@ -1671,10 +1627,11 @@
     <div class="footer__copyright text-light py-3">
 
      <ul class="copyright__links">
-      <h5 class="title">CODEC</h5>
+      <a href="index.php" ckass="navbar-brand">
+       <img src="<?php echo base_url(); ?>assets/img/codaclogo.png" alt="codac logo" style="width: 44px;"></a>
       <li class="nav-item">
        <a href="#" class="nav-link">
-        &copy; Codec 2019
+        &copy; Codac 2019
        </a>
       </li>
       <li class="nav-item">
@@ -1705,7 +1662,7 @@
 
 
  <?php include('fragments/modals.php'); ?>
- 	
+
 
  <script src="<?php echo base_url(); ?>assets/js/jquery.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>

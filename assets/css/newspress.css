@@ -1,0 +1,266 @@
+.btn__button {
+  width: 220px;
+  border-radius: 0;
+  background: #317036;
+  border: 1px solid #317036;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  color: white;
+}
+.btn__button:hover {
+  background: #39823f;
+  border: 1px solid #317036;
+  color: white;
+}
+
+.main-header {
+  font-size: 2.1rem;
+}
+
+.main-sub-header {
+  font-size: 1.3rem;
+}
+
+.sub-header {
+  font-size: 1.6rem;
+}
+
+.paragraph {
+  font-size: 1.1rem;
+}
+
+.paragraph-header {
+  font-size: 1.3rem;
+}
+
+.opacify {
+  opacity: 0.9;
+}
+
+.social {
+  width: 40px;
+}
+.social i {
+  font-size: 1.2rem;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.social .fa-facebook {
+  background: blue;
+}
+.social .fa-twitter {
+  background: #3333ff;
+}
+.social .fa-linkedin {
+  background: #1a1aff;
+}
+
+.hero {
+  padding: 90px 10px;
+  padding-bottom: 130px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero .container {
+  padding-left: 250px;
+}
+
+.press__social {
+  display: flex;
+  justify-content: center;
+}
+.press .press__listing {
+  list-style: none;
+  text-align: center;
+}
+.press .press__listing p {
+  color: #465159;
+}
+.press .press__listing img {
+  height: 100px;
+  width: 100px;
+}
+.press .press__listing li {
+  display: inline-block;
+  height: 300px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  max-width: 280px;
+  padding: 20px 10px;
+  vertical-align: top;
+}
+.press .btn-md {
+  border-radius: 0;
+  width: 100%;
+}
+
+.press-footer {
+  background: #f8f8f8;
+}
+.press-footer-social {
+  background: #f3f3f3;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background: #343434;
+  display: flex;
+  padding: 10px 5px;
+  padding-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+}
+.footer .nav-container {
+  width: 150px;
+}
+.footer__header {
+  color: white;
+}
+.footer ul {
+  list-style: none;
+}
+.footer a {
+  color: white;
+  line-height: 10px;
+}
+
+@media (min-width: 1256px) {
+  .topnav__bg {
+    display: flex;
+    align-items: center;
+  }
+  .topnav .group-1 {
+    display: flex;
+    align-items: center;
+    flex: 0 0 30%;
+  }
+  .topnav .group-2 {
+    display: flex;
+    flex: 0 0 70%;
+    align-items: center;
+  }
+  .topnav__search {
+    width: 224px !important;
+    font-size: 1rem;
+  }
+
+  .press__listing li {
+    margin: 10px;
+    padding: 20px 10px !important;
+    width: calc(25% - 25px) !important;
+    max-width: 210px !important;
+  }
+}
+@media (min-width: 0px) {
+  .language__globe {
+    position: absolute;
+    top: 73px;
+  }
+}
+@media (min-width: 0px) and (max-width: 620px) {
+  .group-2 {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    justify-content: center !important;
+    align-items: center;
+  }
+}
+@media (max-width: 550px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer .nav-container {
+    width: 99%;
+  }
+}
+@media (max-width: 800px) {
+  .main-header {
+    font-size: 1.8rem;
+  }
+
+  .main-sub-header {
+    font-size: 1.2rem;
+  }
+
+  .sub-header {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 1000px) {
+  .hero .container {
+    padding: 0;
+  }
+  .hero .display-3 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 420px) {
+  .dropleft {
+    position: static !important;
+  }
+
+  .dropleft .dropdown-menu {
+    width: 90vw !important;
+    position: absolute !important;
+    left: 0 !important;
+    transform: translate3d(0px, 45px, 0px) !important;
+    -webkit-transform: translate3d(0px, 45px, 0px) !important;
+    -moz-transform: translate3d(0px, 45px, 0px) !important;
+    -ms-transform: translate3d(0px, 45px, 0px) !important;
+    -o-transform: translate3d(0px, 45px, 0px) !important;
+  }
+
+  .btn__button {
+    width: 90%;
+  }
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: "Times New Roman", Times, serif;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/*# sourceMappingURL=newspress.css.map */

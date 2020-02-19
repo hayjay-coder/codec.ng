@@ -1,0 +1,149 @@
+.main {
+  width: 99%;
+
+  .article {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  article {
+    border: 1px solid #dbdfe3;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: 220px;
+    }
+  }
+
+  &-body {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .sub-header {
+    height: 130px;
+  }
+
+  .author {
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+
+  .paragraph {
+    text-align: left;
+    margin-top: 10px;
+    height: 170px;
+    overflow-y: hidden;
+  }
+
+  &-footer {
+    a {
+      text-decoration: none;
+    }
+
+    &-sns {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    &-related {
+      margin-top: 20px;
+      text-align: center;
+
+      a {
+        display: inline-block;
+        padding: 3px;
+        text-decoration: none;
+
+        .btn {
+          border-radius: 0;
+        }
+
+        &:not(:last-child) {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+
+.main-right-sidebar {
+  .search-form {
+    display: flex;
+
+    input {
+      width: calc(100% - 70px);
+      border-radius: 0;
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+
+    button {
+      width: 70px;
+      border-radius: 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      -o-border-radius: 0;
+    }
+  }
+
+  h3 {
+    line-height: 6px;
+  }
+
+  hr {
+    display: inline-block;
+    width: 40px;
+    border-bottom: 2px solid blue;
+  }
+}
+
+.popular__posts {
+  margin-top: 70px;
+
+  &-body {
+    width: 220px;
+
+    &-card {
+      display: flex;
+
+      .h5 {
+        font-size: 1.2rem;
+      }
+
+      &:nth-child(odd) {
+        margin-bottom: 10px;
+      }
+
+      img {
+        width: calc(50% - 30px);
+      }
+
+      p {
+        width: 50%;
+      }
+    }
+  }
+}
+
+.categories {
+  margin-top: 80px;
+
+  a {
+    color: grey;
+
+    &:hover {
+      color: rgb(0, 153, 255);
+      text-decoration: none;
+    }
+  }
+}

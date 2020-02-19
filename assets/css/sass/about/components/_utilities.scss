@@ -1,0 +1,72 @@
+.btn__button {
+  width: 220px;
+  border-radius: 0;
+  background: #317036;
+  border: 1px solid #317036;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  color: white;
+
+  &:hover {
+    background: lighten(#317036, 5%);
+    border: 1px solid #317036;
+    color: white;
+  }
+}
+
+.main-header {
+  font-size: 3rem;
+}
+
+.main-sub-header {
+  font-size: 1.3rem;
+}
+
+.sub-header {
+  font-size: 1.6rem;
+}
+
+.paragraph {
+  font-size: 1.1rem;
+}
+
+.paragraph-header {
+  font-size: 1.3rem;
+}
+
+.opacify {
+  opacity: 0.9;
+}
+
+.social {
+  width: 40px;
+  i {
+    font-size: 1.6rem;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  .fa-facebook {
+    background: blue;
+  }
+
+  .fa-twitter {
+    background: lighten(blue, 10%);
+  }
+
+  .fa-linkedin {
+    background: lighten(blue, 5%);
+  }
+}

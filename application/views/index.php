@@ -77,17 +77,17 @@
      <div class="topnav__links">
       <ul class="topnav__links-container">
        <li class="toggle-1">
-        <a class="text-light" href="#">Lorem Ipsum</a>
+        <a class="text-light" href="javascript:void(0)">Lorem</a>
         <i class="fa fa-angle-down" aria-hidden="true"></i>
         <i class="fa fa-angle-up" aria-hidden="true"></i>
        </li>
        <li class="ml-3 toggle-2">
-        <a class="text-light" href="#">Lorem Ipsum</a>
+        <a class="text-light" href="javascript:void(0)">Lorem Ips</a>
         <i class="fa fa-angle-down" aria-hidden="true"></i>
         <i class="fa fa-angle-up" aria-hidden="true"></i>
        </li>
        <li class="ml-3 toggle-3">
-        <a class="text-light" href="#">Lorem Ipsum</a>
+        <a class="text-light" href="javascript:void(0)">Lorem</a>
         <i class="fa fa-angle-down" aria-hidden="true"></i>
         <i class="fa fa-angle-up" aria-hidden="true"></i>
        </li>
@@ -99,7 +99,7 @@
        <button class="btn btn-success signup-btn" data-target="#signupModal" data-toggle="modal">Sign Up</button>
        <button class="btn text-light login-btn" data-target="#loginModal" data-toggle="modal">Log In</button>
 
-       <span class="language">
+       <span class="language__select">
         <span class="abbriev">en</span>
         <i class="fa fa-globe" aria-hidden="true"></i>
        </span>
@@ -1670,7 +1670,7 @@
  <script src="<?php echo base_url(); ?>assets/js/slick.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
  <script src=" https://cdn.jsdelivr.net/jquery.counterup/1.0/jquery.counterup.min.js"></script>
-
+ <script src="<?php echo base_url(); ?>assets/js/nav.js"></script>
  <script src="<?php echo base_url(); ?>assets/js/plugin.js"></script>
  </script>
 </body>

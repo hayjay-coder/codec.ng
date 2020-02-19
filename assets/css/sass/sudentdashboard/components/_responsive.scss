@@ -1,0 +1,162 @@
+@media (min-width: 1256px) {
+  .topnav {
+    &__bg {
+      display: flex;
+      align-items: center;
+    }
+
+    .group-1 {
+      display: flex;
+      align-items: center;
+      flex: 0 0 30%;
+    }
+
+    .group-2 {
+      display: flex;
+      flex: 0 0 70%;
+      align-items: center;
+    }
+
+    &__search {
+      width: 224px !important;
+      font-size: 1rem;
+    }
+  }
+
+  .language__globe {
+    top: 70px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .copyright__links {
+    text-align: center;
+
+    h5 {
+      float: none;
+      width: 100% !important;
+    }
+
+    li {
+      float: none;
+      display: inline-block;
+    }
+  }
+
+  .footer__go-up {
+    bottom: 120px;
+  }
+
+  .toggle__sidebar {
+    display: inline-block;
+  }
+
+  .widget {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 850px) {
+  .footer {
+    .container {
+      grid-template-columns: 30% 30% !important;
+      gap: 30px !important;
+    }
+  }
+}
+
+@media (min-width: 711px) {
+  .language__globe {
+    position: absolute;
+    top: 73px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 620px) {
+  .group-2 {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    justify-content: center !important;
+    align-items: center;
+  }
+}
+
+@media (max-width: 550px) {
+  
+  .dashboard__info {
+   &-img {
+    width: 140px;
+    height: 140px;
+   }
+
+   img {
+    width: 130px;
+    height: 130px;
+  }
+  }
+   
+  .group-2 {
+    display: flex !important;
+    flex-direction: column;
+
+    .topnav__links {
+      order: 2;
+    }
+
+    .btn__button {
+      width: 100%;
+    }
+
+    .dropdown-menu {
+      width: 80vw !important;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate3d(-50%, 15%, 0) !important;
+      -webkit-transform: translate3d(-50%, 15%, 0) !important;
+      -moz-transform: translate3d(-50%, 15%, 0) !important;
+      margin: auto !important;
+      -ms-transform: translate3d(-50%, 15%, 0) !important;
+      -o-transform: translate3d(-50%, 15%, 0) !important;
+    }
+
+    .topnav__links-container {
+      flex-direction: column;
+      order: 1;
+
+      li {
+        margin: 0 !important;
+      }
+
+      li:not(:last-child) {
+        margin-bottom: 5px !important;
+      }
+    }
+  }
+
+  .language__globe {
+   position: absolute;
+   top: 100px;
+ }
+
+ .profile__widget {
+  h1 {
+   font-size: 2.3rem;
+  }
+ }
+
+ .form-details-container {
+  grid-template-columns: 1fr !important;
+ }
+
+ .form-bg {
+  margin-top: 20px;
+  padding: 10px !important;
+ }
+
+ .widget {
+  padding-left: 20px;
+  padding-right: 20px;
+ }
+}

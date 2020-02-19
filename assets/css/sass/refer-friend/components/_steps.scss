@@ -1,0 +1,31 @@
+.steps {
+  background: lighten($light-grey, 3%);
+  .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  &__card {
+    width: 20%;
+  }
+
+  .arrow {
+    align-self: center;
+  }
+
+  &__header {
+    height: 200px;
+  }
+  &-body {
+    margin-top: 10px;
+  }
+
+  .rotate {
+    transform: translate(-10%, -50%) scaleY(-1);
+    -webkit-transform: translate(-10%, -50%) scaleY(-1);
+    -moz-transform: translate(-10%, -50%) scaleY(-1);
+    -ms-transform: translate(-10%, -50%) scaleY(-1);
+    -o-transform: translate(-10%, -50%) scaleY(-1);
+  }
+}

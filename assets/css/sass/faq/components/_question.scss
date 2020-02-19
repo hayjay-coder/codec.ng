@@ -1,0 +1,71 @@
+.question {
+  background-color: darken($light-grey, 6%);
+
+  &-container {
+    p {
+      font-size: 1.1rem;
+    }
+  }
+
+  &-body {
+    display: flex;
+    align-items: center;
+    background-color: $white;
+    width: 500px;
+    padding: 10px;
+    img {
+      object-fit: contain;
+      margin-right: 20px;
+    }
+  }
+
+  &-footer {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+
+  footer {
+    width: 95px;
+    padding: 2px 6px;
+    height: 34px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: $white;
+
+    a {
+      i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border-radius: 50%;
+        width: 23px;
+        height: 23px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }
+
+      .fa-facebook {
+        background: blue;
+      }
+
+      .fa-twitter {
+        background: lighten(blue, 10%);
+      }
+
+      .fa-linkedin {
+        background: lighten(blue, 5%);
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.btn__button {
+  width: 220px;
+  border-radius: 0;
+  background: #317036;
+  border: 1px solid #317036;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  color: white;
+
+  &:hover {
+    background: lighten(#317036, 5%);
+    border: 1px solid #317036;
+    color: white;
+  }
+}
+
+.active-blue {
+  background: #007bff;
+  a {
+   color: white;
+  }
+}
+
+.widget {
+ padding: 40px 50px;
+ width: calc(100% - 266px);
+ margin-left: 266px;
+}

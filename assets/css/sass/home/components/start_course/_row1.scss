@@ -1,0 +1,83 @@
+.row1 {
+  padding: 0 10px;
+  margin-top: 20px;
+  .breadcrumbs{
+    display: none;
+  }
+  h3 {
+    background-color: $gb_color;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid rgb(224, 221, 221);
+    border-bottom: none;
+    box-shadow: 1px 1px 5px gray;
+  }
+  article {
+    background-color: rgb(226, 224, 224);
+    display: block;
+    padding: 0 0 30px 0;
+
+    aside {
+      display: flex;
+      justify-content: center;
+      padding: 20px 10px;
+
+      img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+      }
+      div {
+        height: 30px;
+        width: 80%;
+        border-radius: 20px;
+        background-color: $gb_color;
+      }
+    }
+    p {
+      text-align: center;
+    }
+
+    button {
+      display: block;
+      margin: 30px auto;
+      background-color: $brand_color;
+      padding: 10px 30px;
+      border: none;
+      color: white;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+
+    p.ads {
+      text-align: left;
+      padding: 5px 20px;
+      font-size: 14px;
+      border-top: 1px solid gray;
+    }
+  }
+}
+@media screen and (min-width: 560px){
+  .row1 {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .breadcrumbs {
+    display: block !important;
+    padding: 20px 10px;
+    span{
+      color: gray;
+      
+    }
+    span::after{
+      content:"\00BB";
+      margin: 0 10px;
+    }
+    span:last-child::after{
+      content: "";
+    }
+  }
+}

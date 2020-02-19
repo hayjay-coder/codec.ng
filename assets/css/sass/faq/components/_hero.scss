@@ -1,0 +1,25 @@
+.hero__header {
+  background-color: $light-grey;
+}
+
+.hero__bg {
+  position: relative;
+  padding: 20px 40px;
+}
+
+figure {
+  width: 700px;
+  position: relative;
+  box-shadow: 2px 2px 2px $light-grey;
+
+  figcaption {
+    background: $white;
+    font-size: 1.1rem;
+  }
+
+  img {
+    max-width: 100%;
+    position: relative;
+    top: 50px;
+  }
+}

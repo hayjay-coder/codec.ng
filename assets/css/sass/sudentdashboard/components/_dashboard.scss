@@ -1,0 +1,239 @@
+.dashboard {
+  position: relative;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.dashboard__user {
+  width: 218px;
+  background: lighten($sidebar-light, 1%);
+  position: relative;
+  height: 100%;
+  box-shadow: 11px 8px 9px -7px rgba(50, 50, 50, 0.3);
+  transition: all 0.3s ease-in;
+
+  &-tabs {
+    text-align: center;
+    background: white;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 11px 8px 9px -7px rgba(50, 50, 50, 0.3);
+
+    .profile,
+    .dash {
+      width: 50%;
+      padding: 9px 8px;
+      a {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+.dashboard__info {
+  position: relative;
+  box-shadow: 11px 8px 9px -7px rgba(50, 50, 50, 0.3);
+  background: lighten($sidebar-light, 1%);
+  padding-top: 20px;
+  text-align: center;
+
+  &-img {
+    display: inline-block;
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid #fff;
+    position: relative;
+    margin-bottom: 20px;
+
+    img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+    }
+  }
+
+  .firstname,
+  .lastname {
+    color: white;
+  }
+
+  &-links {
+    background: darken($sidebar-light, 10%);
+    padding: 30px 2px;
+
+    h5 {
+      color: #0094c9;
+    }
+
+    li {
+      padding: 6px 0;
+
+      a {
+        color: white;
+        font-size: 1.1rem;
+
+        &:hover {
+          color: wheat;
+        }
+      }
+    }
+  }
+}
+
+.dashboard__widget {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+  gap: 20px;
+  justify-content: center;
+  display: none;
+
+  &-card {
+    border-radius: 8px;
+    padding: 0 15px 15px;
+    background: #fff;
+    box-shadow: 0 2px 5px 0 rgba(50, 50, 50, 0.2);
+    transition: opacity 0.3s ease-in;
+
+    &-header {
+      text-align: center;
+      padding: 10px 5px;
+    }
+
+    &-body {
+      height: 200px;
+      background: #ebf1f5;
+      margin-top: 15px;
+      padding: 10px;
+      border-radius: 8px;
+      text-align: center;
+
+      p {
+        font-size: 1.1rem;
+      }
+
+      h5 {
+        font-size: 5rem;
+        color: orange;
+      }
+
+      h4 {
+        font-size: 3rem;
+        color: orange;
+      }
+
+      h6 {
+        font-size: 2rem;
+      }
+
+      a {
+        color: white;
+        background-color: $green;
+        text-decoration: none;
+        border-radius: 2px;
+
+        &:hover {
+          background-color: lighten($green, 4%);
+        }
+      }
+    }
+  }
+}
+
+.side-bar {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  z-index: 2;
+  height: 100%;
+  width: 266px;
+}
+
+.toggle__sidebar {
+  position: absolute;
+  top: 48px;
+  display: none;
+
+  i {
+    background: $green;
+    color: white;
+    width: 48px;
+    height: 100%;
+    padding: 4px 15px;
+    font-size: 2rem;
+
+    &:hover {
+      padding-left: 0.0001px;
+      transition: 0.3s;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s;
+    }
+  }
+}
+
+.right {
+  display: none;
+}
+
+//hide sidebar
+.hidden {
+  transition: 0.1s;
+  transform: translateX(-300px);
+  -webkit-transform: translateX(-300px);
+  -moz-transform: translateX(-300px);
+  -ms-transform: translateX(-300px);
+  -o-transform: translateX(-300px);
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+
+//toggle sidebar icon left & right
+.toggle__right {
+  right: 0;
+}
+
+.profile__widget {
+  .form-bg {
+    padding: 30px 30px 0;
+    width: 100%;
+    background-color: #ecf1f5;
+  }
+
+  label {
+    display: block;
+    font-size: 1.3rem;
+  }
+
+  .about-info {
+    padding: 10px;
+    color: #465159;
+    border-radius: 5px;
+    margin-bottom: 28px;
+    min-height: 150px;
+    width: 100%;
+
+    &:focus {
+      box-shadow: none;
+      outline: none;
+      border: none;
+    }
+  }
+  
+  .form-details-container {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   justify-content: center;
+   gap: 10px;
+  }
+
+}

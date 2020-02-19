@@ -1,0 +1,30 @@
+.refer-rewards {
+  p {
+    line-height: 22px;
+  }
+
+  .stats-btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+	
+	.btn {
+	 width: 100%;
+	}
+  }
+
+  .refer-footer {
+    background: lighten($light-grey, 3%);
+    padding: 25px 10px;
+    padding-bottom: 1px;
+
+    small {
+      font-size: 0.9rem;
+    }
+  }
+
+  .refer-footer-bg {
+    background: darken($light-grey, 1%);
+    padding: 90px 0;
+  }
+}

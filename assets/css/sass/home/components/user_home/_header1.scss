@@ -1,0 +1,52 @@
+@import "./variables";
+
+
+
+//SIDEBAR
+.toggle {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 100vh;
+  min-height: 100vh;
+  visibility: hidden;
+  left: -200px;
+  z-index: 9;
+
+  &__nav {
+    list-style: none;
+    padding-top: 140px;
+
+    &-item {
+      display: inline-block;
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 1.2rem;
+
+      &:hover {
+        background: $black;
+      }
+
+    }
+
+    &-link {
+      color: #566d7f;
+      text-decoration: none;
+
+      &:hover {
+       color: white;
+         text-decoration: none;
+      }
+    }
+
+    &-link:active {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+.fa-times {
+  display: none;
+}

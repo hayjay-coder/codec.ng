@@ -1,0 +1,71 @@
+.about {
+  &-sns {
+    display: flex;
+    justify-content: center;
+  }
+
+  &-values__card {
+    list-style: none;
+
+    li {
+      display: inline-block;
+      width: 250px;
+      padding: 15px;
+    }
+
+    h3 {
+      margin-top: 7px;
+    }
+  }
+
+  .about-banner {
+    background-color: $green;
+
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  &-empowerment-card {
+    list-style: none;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      width: 260px;
+      padding: 15px;
+    }
+
+    span {
+      height: 75px;
+      width: 75px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+
+    i {
+      color: white;
+    }
+
+    .laptop {
+      background-color: rgb(252, 197, 17);
+    }
+
+    .certificate,
+    .envelope {
+      background-color: rgb(8, 93, 114);
+    }
+
+    .laptop-2 {
+      background-color: orangered;
+    }
+  }
+}

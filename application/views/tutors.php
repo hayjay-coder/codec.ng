@@ -6,33 +6,26 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta http-equiv="X-UA-Compatible" content="ie=edge">
  <meta name='keywords' content='Codec, E-learning,favourite courses' />
- <meta name='description'
-  content='E-learning site, where registered students learn there favourite courses at their own pace' />
+ <meta name='description' content='E-learning site, where registered students learn there favourite courses at their own pace' />
  <meta property="og:title" content="Codec | E-learning,favourite courses" />
  <meta property="og:type" content="website" />
  <meta property="og:image" content="">
  <meta property="og:url" content="" />
- <meta property="og:description"
-  content="E-learning site, where registered students learn there favourite courses at their own pace" />
+ <meta property="og:description" content="E-learning site, where registered students learn there favourite courses at their own pace" />
  <meta name="twitter:card" content="">
  <meta name="twitter:site" content="">
  <meta name="twitter:creator" content="">
  <meta name="twitter:url" content="">
  <meta name="twitter:title" content="Codec | E-learning,favourite courses">
- <meta name="twitter:description"
-  content="E-learning site, where registered students learn there favourite courses at their own pace">
+ <meta name="twitter:description" content="E-learning site, where registered students learn there favourite courses at their own pace">
  <meta name="twitter:image" content="">
 
-
-
- <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/slick-theme.css">
- <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/slick.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/tutor.css">
- 
- <title>Codec | TUTORS PAGE</title> 
+
+ <title>Codec | TUTORS PAGE</title>
 
 </head>
 
@@ -42,20 +35,20 @@
  <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="#" data-target="#signupModal" data-toggle="modal" data-dismiss="modal" class="nav-blue"> Sign up / Log in</a>
-        <hr>
+  <hr>
   <a href="#">Web Delopment</a>
   <a href="#">Mobile Apps</a>
  </div>
 
  <!-- DROPSEARCH FIELD -->
  <div class="search-drop">
- <form action="" method="get" class="searchdrop">
-  <div class="input-group">
-   <button class="btn"><i class="fas fa-search" aria-hidden="true"></i></button>
-   <input type="search" name="searchdrop" id="searchdrop" placeholder="Search for anything">
-   <span class="close-form" onclick="closeSearch()">X</span>
-  </div>
- </form>
+  <form action="" method="get" class="searchdrop">
+   <div class="input-group">
+    <button class="btn"><i class="fas fa-search" aria-hidden="true"></i></button>
+    <input type="search" name="searchdrop" id="searchdrop" placeholder="Search for anything">
+    <span class="close-form" onclick="closeSearch()">X</span>
+   </div>
+  </form>
  </div>
 
  <!-- NAVIGATION SECTION -->
@@ -65,7 +58,8 @@
     <i class="fa fa-bars" aria-hidden="true" onclick="openNav()"></i>
     <i class="fa fa-search" onclick="openSearch()" aria-hidden="true"></i>
    </span>
-   <span class="navs__mobile-logo"><a href="index.html"><img src="<?php echo base_url(); ?>assets/img/codaclogo.png" alt=""></a></span>
+   <span class="navs__mobile-logo"><a href="index.html">
+     <img src="<?php echo base_url(); ?>assets/img/codaclogo.png" alt=""></a></span>
    <div class="btn-group dropleft">
     <span id="dropdownCartButton" data-toggle="dropdown" aria-haspopup`="true" aria-expanded="false">
      <i class="fas fa-cart-plus cart-btn mr-3 navs__mobile-cart"></i>
@@ -78,7 +72,9 @@
   </nav>
   <nav class="navs__desktop">
    <div class="navs__desktop-logo">
-    <a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>assets/img/codaclogo.png" alt=""></a>
+    <a href="">
+     <img src="<?php echo base_url(); ?>assets/img/codaclogo.png" alt="">
+    </a>
 
     <div class="dropdown">
      <span id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -112,14 +108,13 @@
       <a class="dropdown-item text-center nav-link" href="#">Keep shopping </a>
      </div>
     </div>
-    <button class="btn btn-md btn-outline-secondary btn-login" data-target="#loginModal" data-toggle="modal"
-     type="button">Log In</button>
+    <button class="btn btn-md btn-outline-secondary btn-login" data-target="#loginModal" data-toggle="modal" type="button">Log In</button>
     <button class="btn btn-md btn-danger btn-signup" data-target="#signupModal" data-toggle="modal" type="button">Sign
      Up</button>
   </nav>
 
-	<?php include('fragments/modals.php'); ?>
-	
+  <?php include('fragments/modals.php'); ?>
+
  </section>
  <!-- HERO BACKGROUND SECTION -->
  <section class="hero" id="hero">
@@ -127,8 +122,7 @@
    <div class="hero__body">
     <h1 class="hero__main-text text-light"> Make a global impact</h1>
     <p class="hero__sub-text text-light"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, id.</p>
-    <button class="btn block btn-lg btn-success" data-target="#signupModal" data-toggle="modal"
-    data-dismiss="modal">Become an instructor</button>
+    <button class="btn block btn-lg btn-success" data-target="#signupModal" data-toggle="modal" data-dismiss="modal">Become an instructor</button>
    </div>
   </div>
  </section>
@@ -302,7 +296,7 @@
     <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab voluptates fugit laborum deleniti
      ullam debitis obcaecati labore magnam quae eius.</p>
     <div class="card-body">
-     <img class="card-img-top" src="img/user.png" alt="">
+     <img class="card-img-top" src="<?php echo base_url(); ?>assets/img/user.png" alt="">
      <p class="name">Justin Blake<span class="role">Web Developer</p>
     </div>
    </div>
@@ -310,7 +304,7 @@
     <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab voluptates fugit laborum deleniti
      ullam debitis obcaecati labore magnam quae eius.</p>
     <div class="card-body">
-     <img class="card-img-top" src="img/user.png" alt="">
+     <img class="card-img-top" src="<?php echo base_url(); ?>assets/img/user.png" alt="">
      <p class="name">Justin Blake<span class="role">Web Developer</p>
     </div>
    </div>
@@ -318,7 +312,7 @@
     <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab voluptates fugit laborum deleniti
      ullam debitis obcaecati labore magnam quae eius.</p>
     <div class="card-body">
-     <img class="card-img-top" src="img/user.png" alt="">
+     <img class="card-img-top" src="<?php echo base_url(); ?>assets/img/user.png" alt="">
      <p class="name">Justin Blake<span class="role">Web Developer</p>
     </div>
    </div>
@@ -344,8 +338,7 @@
    Lorem ipsum dolor sit amet consectetur adipisicing elit.
   </p>
   <a href="#">
-   <button class="btn btn-lg btn-success" data-target="#signupModal" data-toggle="modal"
-   data-dismiss="modal">Get started</button>
+   <button class="btn btn-lg btn-success" data-target="#signupModal" data-toggle="modal" data-dismiss="modal">Get started</button>
   </a>
  </section>
  <!-- FOOTER SECTION -->
@@ -387,7 +380,8 @@
    <hr>
    <div class="copyright">
     <div class="copyright-1">
-     <span class="logo"><a href="index.html"><img src="<?php echo base_url(); ?>assets/img/codaclogo.png" alt=""></a></span>
+     <span class="logo"><a href="index.html">
+       <img src="<?php echo base_url(); ?>assets/img/codaclogo.png" alt=""></a></span>
      <span class="ml-3 opacify">Copyright &copy; 2020 Codec, Inc.</span>
     </div>
     <ul class="copyright__links">
@@ -398,23 +392,10 @@
   </footer>
  </section>
 
-
- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
- <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script> -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
- <script src="<?php echo base_url(); ?>assets/js/slick.min.js"></script>
  <script src="<?php echo base_url(); ?>assets/js/tutor.js"></script>
- <script type="text/javascript">
-  $(document).ready(function () {
-   $('.slide').slick({
-    infinite: true,
-    slideToShow: 1,
-    slideToScroll: 1,
-    autoplay: true
-   });
-  })
- </script>
 </body>
 
 </html>

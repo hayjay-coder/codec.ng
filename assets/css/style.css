@@ -119,7 +119,7 @@
   margin-right: 40px;
 }
 
-.topnav .auth__buttons .language {
+.topnav .auth__buttons .language__select {
   position: absolute;
   right: 5px;
   top: 5px;
@@ -134,7 +134,7 @@
   background: white;
 }
 
-.topnav .auth__buttons .language .abbriev {
+.topnav .auth__buttons .language__select .abbriev {
   position: absolute;
   top: -12px;
   right: -5px;
@@ -151,15 +151,15 @@
   z-index: 3;
 }
 
-.topnav .auth__buttons .language:hover {
+.topnav .auth__buttons .language__select:hover {
   background-color: #0094c9;
 }
 
-.topnav .auth__buttons .language:hover .fa {
+.topnav .auth__buttons .language__select:hover .fa {
   color: white !important;
 }
 
-.topnav .auth__buttons .language i {
+.topnav .auth__buttons .language__select i {
   color: black;
   font-size: 1.5rem;
   position: relative;
@@ -168,7 +168,7 @@
   width: 100%;
 }
 
-.topnav .auth__buttons .language i:hover {
+.topnav .auth__buttons .language__select i:hover {
   color: white;
 }
 

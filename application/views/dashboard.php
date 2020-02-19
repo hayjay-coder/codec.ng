@@ -220,7 +220,7 @@
    <section class="video mt-4" id="video">
     <div class="video__start">
      <span class="video__img">
-      <img src="img/video.png" alt="video"></span>
+      <img src="<?php echo base_url(); ?>assets/img/video.png" alt="video"></span>
      <div class="video__body">
       <h5 class="opacify">Get Started with Video</h5>
       <p class="mt-4 opacify">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -231,7 +231,7 @@
 
     <div class="video__audience">
      <span class="video__img">
-      <img src="img/chat.png" alt="video">
+      <img src="<?php echo base_url(); ?>assets/img/chat.png" alt="video">
      </span>
      <div class="video__body">
       <h5 class="opacify">Build Your Audience</h5>
@@ -245,7 +245,7 @@
    <!-- NEWCOMER SECTION -->
    <section class="newcomer box-shadow mt-5 py-3" id="newcomer">
     <span class="newcomer__img">
-     <img src="img/stopwatch.png" alt="laptop">
+     <img src="<?php echo base_url(); ?>assets/img/stopwatch.png" alt="laptop">
     </span>
     <div class="newcomer__body">
      <h4 class="opacify">Join the Newcomer Challenge!</h4>
@@ -442,7 +442,10 @@
  <!-- FOOTER SECTION -->
  <footer class="footer" id="footer">
   <div class="footer__copyright">
-   <span class="logo"><a href="index.html"><img src="img/codaclogo.png" alt=""></a></span>
+   <span class="logo">
+   <a href="index.html"
+   ><img src="<?php echo base_url(); ?>assets/img/codaclogo.png" alt="">
+   </a></span>
    <span class="ml-3 opacify">Copyright &copy; 2020 Codac, Inc.</span>
   </div>
   <ul class="copyright__links">

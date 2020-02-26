@@ -1,0 +1,22 @@
+.paragraph {
+  font-size: 1.1rem;
+  width: 75%;
+}
+
+.btn__button {
+  width: 220px;
+  border-radius: 0;
+  background: #317036;
+  border: 1px solid #317036;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  color: white;
+
+  &:hover {
+    background: lighten(#317036, 5%);
+    border: 1px solid #317036;
+    color: white;
+  }
+}

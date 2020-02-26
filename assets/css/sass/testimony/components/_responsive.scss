@@ -1,0 +1,87 @@
+@media (min-width: 1256px) {
+  .topnav {
+    &__bg {
+      display: flex;
+      align-items: center;
+    }
+
+    .group-1 {
+      display: flex;
+      align-items: center;
+      flex: 0 0 30%;
+    }
+
+    .group-2 {
+      display: flex;
+      flex: 0 0 70%;
+      align-items: center;
+    }
+
+    &__search {
+      width: 224px !important;
+      font-size: 1rem;
+    }
+  }
+}
+
+@media (min-width: 0px) {
+  .language__globe {
+    position: absolute;
+    top: 73px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 620px) {
+  .group-2 {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    justify-content: center !important;
+    align-items: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer {
+    flex-direction: column;
+    .nav-container {
+      width: 99%;
+    }
+  }
+
+  .paragraph {
+    width: 90%;
+  }
+}
+
+@media (max-width: 420px) {
+  .dropleft {
+    position: static !important;
+  }
+
+  .dropleft .dropdown-menu {
+    width: 90vw !important;
+    position: absolute !important;
+    left: 0 !important;
+    transform: translate3d(0px, 45px, 0px) !important;
+    -webkit-transform: translate3d(0px, 45px, 0px) !important;
+    -moz-transform: translate3d(0px, 45px, 0px) !important;
+    -ms-transform: translate3d(0px, 45px, 0px) !important;
+    -o-transform: translate3d(0px, 45px, 0px) !important;
+  }
+
+  .btn__button {
+    width: 90%;
+  }
+
+  .about-values__card {
+    li {
+      width: 90%;
+    }
+  }
+
+  .about-empowerment-card {
+    li {
+      width: 90%;
+    }
+  }
+}

@@ -1,0 +1,183 @@
+.header {
+  padding: 20px 20px;
+  padding-bottom: 40px;
+}
+
+.story {
+  background-color: #f3f3f3;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+.story h6 {
+  font-size: 1.1rem;
+}
+.story ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 290px));
+  justify-content: center;
+  gap: 5px;
+  grid-gap: 5px;
+  align-items: center;
+}
+.story li {
+  box-shadow: 0 1px 3px 0 rgba(50, 50, 50, 0.2);
+}
+.story img {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+}
+
+.paragraph {
+  font-size: 1.1rem;
+  width: 75%;
+}
+
+.btn__button {
+  width: 220px;
+  border-radius: 0;
+  background: #317036;
+  border: 1px solid #317036;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  color: white;
+}
+.btn__button:hover {
+  background: #39823f;
+  border: 1px solid #317036;
+  color: white;
+}
+
+.footer {
+  background: #343434;
+  display: flex;
+  padding: 10px 5px;
+  padding-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+}
+.footer .nav-container {
+  width: 150px;
+}
+.footer__header {
+  color: white;
+}
+.footer ul {
+  list-style: none;
+}
+.footer a {
+  color: white;
+  line-height: 10px;
+}
+
+@media (min-width: 1256px) {
+  .topnav__bg {
+    display: flex;
+    align-items: center;
+  }
+  .topnav .group-1 {
+    display: flex;
+    align-items: center;
+    flex: 0 0 30%;
+  }
+  .topnav .group-2 {
+    display: flex;
+    flex: 0 0 70%;
+    align-items: center;
+  }
+  .topnav__search {
+    width: 224px !important;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 0px) {
+  .language__globe {
+    position: absolute;
+    top: 73px;
+  }
+}
+@media (min-width: 0px) and (max-width: 620px) {
+  .group-2 {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    justify-content: center !important;
+    align-items: center;
+  }
+}
+@media (max-width: 550px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer .nav-container {
+    width: 99%;
+  }
+
+  .paragraph {
+    width: 90%;
+  }
+}
+@media (max-width: 420px) {
+  .dropleft {
+    position: static !important;
+  }
+
+  .dropleft .dropdown-menu {
+    width: 90vw !important;
+    position: absolute !important;
+    left: 0 !important;
+    transform: translate3d(0px, 45px, 0px) !important;
+    -webkit-transform: translate3d(0px, 45px, 0px) !important;
+    -moz-transform: translate3d(0px, 45px, 0px) !important;
+    -ms-transform: translate3d(0px, 45px, 0px) !important;
+    -o-transform: translate3d(0px, 45px, 0px) !important;
+  }
+
+  .btn__button {
+    width: 90%;
+  }
+
+  .about-values__card li {
+    width: 90%;
+  }
+
+  .about-empowerment-card li {
+    width: 90%;
+  }
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: "Times New Roman", Times, serif;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/*# sourceMappingURL=testimony.css.map */

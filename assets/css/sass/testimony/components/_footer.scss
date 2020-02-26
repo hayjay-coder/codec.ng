@@ -1,0 +1,25 @@
+.footer {
+  background: darken(grey, 30%);
+  display: flex;
+  padding: 10px 5px;
+  padding-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+
+  .nav-container {
+    width: 150px;
+  }
+
+  &__header {
+    color: white;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  a {
+    color: white;
+    line-height: 10px;
+  }
+}
